@@ -3,7 +3,11 @@
     <Nav />
     <h2 id="text">{{ $route.params.kmom }}</h2>
     <div id="text">
-        <p>asdasda</p>
+        <a href="https://github.com/SebastianKotljarevski/jsramverk-me-sida">https://github.com/SebastianKotljarevski/jsramverk-me-sida</a>
+        <h4>Hur startar jag me-sidan?</h4>
+        <p>1, Klona repot.</p>
+        <p>2, Kör 'npm install'</p>
+        <p>3, npm run serve</p>
     </div>
 </main>
 
@@ -58,7 +62,7 @@ h2 {
   margin-bottom: 2em;
 }
 
-p, h1, h2 {
+p, h1, h2, h3, h4 {
     color: #373D3F;
 }
 </style>

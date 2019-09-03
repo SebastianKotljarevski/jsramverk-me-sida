@@ -1,29 +1,9 @@
 # me-sida
 
-## Project setup
-```
-npm install
-```
+## Hur startar jag me-sidan?
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### 1, Klona repot
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### 2, Kör 'npm install'
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 3, 'npm run serve'
