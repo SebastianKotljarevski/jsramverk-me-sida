@@ -2,7 +2,7 @@
 <nav>
     <div class="navbar">
         <a class="title">Jag-page</a>
-        <a><router-link to="/">Jag</router-link></a>
+        <a class="left"><router-link to="/">Jag</router-link></a>
         <a class="right"><router-link to="/report/kmom01">kmom01</router-link></a>
     </div>
 </nav>
@@ -24,6 +24,7 @@ export default {
     padding-top: 45px;
     padding-bottom: 45px;
     margin-bottom: 50px;
+    box-shadow: 0 4px 3px -3px black;
 }
 
 a {
@@ -46,6 +47,10 @@ a:hover {
 }
 
 .right {
-    padding-right: 13%;
+    /*padding-right: 13%;*/
+}
+
+.left {
+    margin-left: -14%;
 }
 </style>

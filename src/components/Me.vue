@@ -5,6 +5,8 @@
     <p id="text">Mitt namn är Sebastian Kullander. Jag är 22 år gammal och kommer ifrån en liten ort utanför stockholm.
     När jag inte pluggar gillar jag att sitta framför datorn, umgås med vänner och kolla fotboll, främst serieledargårdens IF(Djurgården).
     Välkommen till min Me-sida.</p>
+
+    <img src="../assets/serbberg.jpg" width="300">
 </main>
 </template>
 
@@ -44,5 +46,15 @@ export default {
 <style scoped>
 p, h1, h2 {
     color: #373D3F;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    box-shadow: 0 8px 6px -6px black;
+
 }
 </style>
