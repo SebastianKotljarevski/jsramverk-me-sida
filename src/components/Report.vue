@@ -65,4 +65,9 @@ h2 {
 p, h1, h2, h3, h4 {
     color: #373D3F;
 }
+
+h1, h2, h3, h4 {
+    color: black;
+    padding-bottom: 20px;
+}
 </style>
